@@ -1,0 +1,11 @@
+[alias]
+    alias = config --get-regexp alias
+    br = branch
+    co = checkout
+    cb = checkout -b
+    st = status -sb
+    unstage = reset --
+[color]
+    ui = auto
+[core]
+    editor = code --wait
