@@ -6,8 +6,9 @@ home=$(eval echo ~$user)
 echo "Setting up git files..."
 
 # Copy over git files
-cp .gitconfig "$home/.gitconfig"
-cp .gitignore "$home/.gitignore"
+cp configs/gitconfig "$home/.gitconfig"
+cp configs/gitignore "$home/.gitignore"
+cp -r configs/gitconfig-files "$home/.gitconfig-files"
 
 # Setup Name/Email
 if [ $# -eq 0 ]; then

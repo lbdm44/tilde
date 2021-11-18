@@ -1,0 +1,6 @@
+[commit]
+	gpgsign = true
+
+[user]
+	email = lewis.miller.github@pm.me
+	signingkey = [ADD KEY]

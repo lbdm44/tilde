@@ -1,0 +1,10 @@
+##### BEGIN DEFAULT SETUP #####
+
+[include]
+   path = .gitconfig-files/all.gitconfig
+[includeIf "gitdir/i:~/projects/"]
+   path = .gitconfig-files/oss.gitconfig
+[includeIf "gitdir/i:~/workspace/"]
+   path = .gitconfig-files/work.gitconfig
+
+##### END DEFAULT SETUP #####
